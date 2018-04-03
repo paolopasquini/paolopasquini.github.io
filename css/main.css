@@ -12,6 +12,13 @@ body {
   font-family: 'Titillium Web', sans-serif;
 }
 
+.banner-group {
+  position: relative;
+  z-index: 100;
+  background-position: center;
+  height: 500px;
+}
+
 a {
   text-decoration: none;
   cursor: pointer;
@@ -31,13 +38,21 @@ header {
   padding-top: 20px;
 }
 
-.site-title {
+.top-nav {
   background-color: #0fa79a;
   text-align: center;
   margin: 0;
-  padding: 10px;
   position: fixed;
   width: 100%;
+  border-bottom: solid 4px #fff;
+}
+
+.top-nav ul {
+  margin: 6px;
+}
+
+.top-nav a {
+  padding-bottom: 6px;
 }
 
 .site-title a {  
@@ -51,17 +66,25 @@ header {
 }
 
 nav {
-  margin-top: 220px;
+  margin-top: 413px;
+  background-color: rgba(0, 0, 0, .5);
 }
 
 nav a {
   color: #fff;
+  border-bottom: solid 1px;
+  padding-bottom: 1px;
+}
+
+nav a:hover {
+  border-bottom: solid 4px;
+  border-color: #dd034e;
 }
 
 nav ul {
   display: inline-block;
   padding: 0;
-  margin: 0 0 20px 0;
+  margin: 13px 0 19px 0;
 }
 
 nav ul li {
@@ -76,7 +99,6 @@ nav ul li {
   width: 100%;
   position: absolute;
   top: 0;
-  z-index: -10;
 }
 
 .footer {
