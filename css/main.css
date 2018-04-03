@@ -19,6 +19,24 @@ body {
   height: 500px;
 }
 
+.page-title {
+  font-size: 50px;
+  margin: 0;
+  padding: 50px;
+  text-align: center;
+  color: #fffcfd;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  margin-top: 0px;
+  background-color: rgba(0, 0, 0, .8);
+  position: absolute;
+  bottom: 0;
+}
+
 a {
   text-decoration: none;
   cursor: pointer;
@@ -28,14 +46,33 @@ a {
 
  a:hover, .active {
   opacity: 1;
-  color: #fff;
+  color: #dd034e;
 }
 
-header {
-  text-align: center;
-  width: 100%;
-  margin: 0;
-  padding-top: 20px;
+nav a {
+  color: #fff;
+  border-bottom: solid 1px;
+  padding-bottom: 1px;
+}
+
+nav a:hover {
+  color: #fff;
+  border-bottom: solid 4px;
+  border-color: #dd034e;
+}
+
+nav ul {
+  display: inline-block;
+  padding: 0;
+  margin: 13px 0 19px 0;
+}
+
+nav ul li {
+  list-style: none;
+	display: inline-block;
+  margin: 0 15px;
+  font-size: 23px;
+  text-transform: uppercase;
 }
 
 .top-nav {
@@ -65,40 +102,48 @@ header {
   font-size: 30px;
 }
 
-nav {
-  margin-top: 413px;
-  background-color: rgba(0, 0, 0, .5);
-}
-
-nav a {
-  color: #fff;
-  border-bottom: solid 1px;
-  padding-bottom: 1px;
-}
-
-nav a:hover {
-  border-bottom: solid 4px;
-  border-color: #dd034e;
-}
-
-nav ul {
-  display: inline-block;
+table td {  
+  margin: 0;
   padding: 0;
-  margin: 13px 0 19px 0;
 }
 
-nav ul li {
-  list-style: none;
-	display: inline-block;
-  margin: 0 15px;
-  font-size: 23px;
-  text-transform: uppercase;
-}
-
-.homepage-banner {
+.circle-text, .text-text  {
   width: 100%;
-  position: absolute;
-  top: 0;
+  margin: 0;
+}
+
+.circle-text {
+  background-color: #dfe0e6;
+}
+
+table {
+  width: 80%;
+  text-align: center;
+  margin: 50px auto;
+  padding: 10px 0;
+}
+
+table td {
+  padding: 10px 30px;
+  width: 50%;
+}
+
+.circle {
+  width: 250px;
+  height: 250px;
+  background-size: 100%;
+  border-radius: 100%;
+  display: inline-block;
+}
+
+.text {  
+  display: inline-block;
+  text-align: left;
+  float: left;
+}
+
+.text-text .text {
+  text-align: left;
 }
 
 .footer {
