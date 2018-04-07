@@ -1,16 +1,16 @@
 <nav class="top-nav">
   <ul>
     <li>
-      <a href="{{ site.baseurl }}/index.html" {% if page.url contains "bio" %} class="active" {% endif %} >Chi sono</a>
+      <a href="{{ site.baseurl }}/index.html" {% if page.url contains "urologia" or page.url contains "contatti" or page.url contains "competenze" %}{% else %} class="active" {% endif %}>Chi sono</a>
     </li>
     <li>
-      <a href="{{ site.baseurl }}/urologia.html" {% if page.url contains "gallery" or page.url contains "update" %} class="active" {% endif %}>Urologia</a>
+      <a href="{{ site.baseurl }}/urologia.html" {% if page.url contains "urologia" %} class="active" {% endif %}>Urologia</a>
     </li>
     <li>
-      <a href="{{ site.baseurl }}/competenze.html" {% if page.url contains "projects" %} class="active" {% endif %}>Competenze</a>
+      <a href="{{ site.baseurl }}/competenze.html" {% if page.url contains "competenze" %} class="active" {% endif %}>Competenze</a>
     </li>
     <li>
-      <a href="{{ site.baseurl }}/contatti.html" {% if page.url contains "portfolio" %} class="active" {% endif %}>Contatti</a>
+      <a href="{{ site.baseurl }}/contatti.html" {% if page.url contains "contatti" %} class="active" {% endif %}>Contatti</a>
     </li>
   </ul>
 </nav>

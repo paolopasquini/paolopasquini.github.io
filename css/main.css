@@ -2,7 +2,7 @@
 
 body {
   background-color: #fffcfd;
-  background-image: url("../pattern/pattern2.jpg");
+  background-image: url("../img/pattern.jpg");
   background-size: 200px;
   font-size: 19px;
   color: #272727;
@@ -15,6 +15,15 @@ body {
 .banner-group {
   position: relative;
   z-index: 100;
+  background-color: #0fa5ae;
+  background-position: center;
+  height: 350px;
+}
+
+.home-banner-group {
+  position: relative;
+  z-index: 100;
+  background-color: #0fa5ae;
   background-position: center;
   height: 500px;
 }
@@ -25,6 +34,7 @@ body {
   padding: 50px;
   text-align: center;
   color: #fffcfd;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
 }
 
 header {
@@ -32,7 +42,7 @@ header {
   width: 100%;
   margin: 0;
   margin-top: 0px;
-  background-color: rgba(0, 0, 0, .8);
+  background-color: rgba(0, 0, 0, .7);
   position: absolute;
   bottom: 0;
 }
@@ -40,7 +50,7 @@ header {
 a {
   text-decoration: none;
   cursor: pointer;
-  color:  #0fa79a;
+  color:  #0fa5ae;
   opacity: 0.8;
  }
 
@@ -55,7 +65,7 @@ nav a {
   padding-bottom: 1px;
 }
 
-nav a:hover {
+nav a:hover, nav .active {
   color: #fff;
   border-bottom: solid 4px;
   border-color: #dd034e;
@@ -76,7 +86,7 @@ nav ul li {
 }
 
 .top-nav {
-  background-color: #0fa79a;
+  background-color: #0fa5ae;
   text-align: center;
   margin: 0;
   position: fixed;
@@ -92,7 +102,7 @@ nav ul li {
   padding-bottom: 6px;
 }
 
-.site-title a {  
+.site-title a {
   opacity: 1;
 }
 
@@ -102,17 +112,17 @@ nav ul li {
   font-size: 30px;
 }
 
-table td {  
+table td {
   margin: 0;
   padding: 0;
 }
 
-.circle-text, .text-text  {
+.circle-text, .text-text1, .text-text2 {
   width: 100%;
   margin: 0;
 }
 
-.circle-text {
+.circle-text, .text-text2 {
   background-color: #dfe0e6;
 }
 
@@ -126,6 +136,7 @@ table {
 table td {
   padding: 10px 30px;
   width: 50%;
+  vertical-align: top;
 }
 
 .circle {
@@ -136,38 +147,53 @@ table td {
   display: inline-block;
 }
 
-.text {  
+.text {
   display: inline-block;
   text-align: left;
   float: left;
 }
 
-.text-text .text {
+.right .text {
+  margin-top: 70px;
+}
+
+.text-text1 .text, .text-text2 .text {
   text-align: left;
 }
 
-.footer {
-  margin-top: 100px;
-  position: relative;
+.img-series {
   text-align: center;
-  padding-bottom: 80px;
+  margin: -50px 0;
+}
+
+.img-series img {
+  width: 200px;
+  display: inline-block;
+}
+
+.sub-banner {
+  height: 250px;
+  background-color: rgba(0, 0, 0, .9);
+}
+
+footer {
+  background-color: rgba(0, 0, 0, .9);
+  margin-top: 100px;
+  position: absolute;
   width: 100%;
 }
 
-.footer p {
-  margin: 15px 15px;
-}
-
-.copyright {
-  font-style: normal;
-  font-size: 16px;
-  float: left;
-  margin-top: 40px;
+.footer-text {
+  margin: 35px auto;
+  color: #fffcfd;
+  width: 80%;
 }
 
 .author {
-  float: right;
+  color: #fffcfd;
   font-size: 16px;
   font-style: normal;
-  margin-top: 40px;
+  position: absolute;
+  bottom: 20px;
+  right: 10%;
 }
