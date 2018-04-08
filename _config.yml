@@ -10,7 +10,6 @@ title: Dottor Paolo Pasquini
 email: paolocarlopasquini@gmail.com
 description: Profilo professionale del Dottor Paolo Carlo Pasquini, specialista in Urologia Andrologo e Dirigente Medico SC Urologia EO Galliera Genova
 baseurl: "paolopasquini.gitlab.io/paolopasquini"
-url: "paolopasquini.gitlab.io/paolopasquini"
 
 # Build settings
 markdown: kramdown
