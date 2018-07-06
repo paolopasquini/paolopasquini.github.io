@@ -12,7 +12,7 @@ body {
   font-family: 'Titillium Web', sans-serif;
 }
 
-.highlight {  
+.highlight {
   color: #0fa5ae;
   font-weight: 700;
 }
@@ -31,7 +31,7 @@ body {
   z-index: 100;
   background-color: #0fa5ae;
   background-position: center;
-  background-size: auto 100%; 
+  background-size: auto 100%;
   height: 500px;
 }
 
@@ -41,7 +41,7 @@ body {
   padding: 50px;
   text-align: center;
   color: #fffcfd;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, .6);
 }
 
 header {
@@ -49,7 +49,7 @@ header {
   width: 100%;
   margin: 0;
   margin-top: 0px;
-  background-color: rgba(0, 0, 0, .7);
+  background-color: rgba(0, 0, 0, .6);
   position: absolute;
   bottom: 0;
 }
@@ -71,7 +71,8 @@ nav a {
   color: #fff;
   border-bottom: solid 1px;
   padding-bottom: 1px;
-  font-weight: 300
+  font-weight: 300;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, .5)
 }
 
 nav a:hover, nav .active {
@@ -95,12 +96,13 @@ nav ul li {
 }
 
 .top-nav {
-  background-color: #0fa5ae;
+  background-color: rgba(15, 165, 174, 0.9);
   text-align: center;
   margin: 0;
   position: fixed;
   width: 100%;
   border-bottom: solid 4px #fff;
+  z-index: 90;
 }
 
 .top-nav ul {
@@ -134,7 +136,7 @@ iframe {
 }
 
 .circle-text, .text-text2 {
-  background-color: #dfe0e6;
+  background-color: rgba(213, 214, 220, 0.6)
 }
 
 table {
@@ -145,9 +147,9 @@ table {
 }
 
 table td {
-  width: 50%;
   vertical-align: top;
   margin: 0;
+  width: 50%;
 }
 
 .circle-text table td {
@@ -156,11 +158,9 @@ table td {
 
 .circle {
   width: 250px;
-  height: 250px;
   background-size: 100%;
-  border-radius: 100%;
   display: inline-block;
-  margin: 20px;
+  margin: 10px;
 }
 
 .text {
@@ -198,7 +198,7 @@ table td {
 }
 
 footer {
-  background-color: rgba(0, 0, 0, .9);
+  background-color: rgba(0, 0, 0, 0.8);
   margin-top: 100px;
   position: absolute;
   width: 100%;
@@ -214,23 +214,72 @@ footer {
   color: #fffcfd;
   font-size: 16px;
   font-style: normal;
-  position: absolute;
-  bottom: 20px;
-  right: 10%;
+}
+
+.author a:hover {
+  color: #fffcfd;
 }
 
 @media (min-width: 1900px) {
-  
-  .banner-group {
-  background-size: 100%;
-  height: 350px;
+
+    .banner-group {
+    background-size: 100%;
+    height: 350px;
+  }
+
+  .home-banner-group {
+    background-size: 100%;
+    height: 500px;
+  }
+
 }
 
-.home-banner-group {
-  background-size: 100%; 
-  height: 500px;
-}
-  
+@media (min-width: 630px) {
+
+  .author {
+    position: absolute;
+    bottom: 20px;
+    right: 10%;
+  }
+
 }
 
+@media (max-width: 560px) {
 
+  table td {
+    display:block;
+    box-sizing:border-box;
+    clear:both
+}
+
+  .text-text1 .right .text, .text-text2 .right .text {
+    margin-top: 0px;
+    padding-left: 0px;
+  }
+
+  .text-text1 .left .text, .text-text2 .left .text {
+    padding-right: 0px;
+  }
+
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+
+  nav a {
+    color: #fff;
+    border-bottom: solid 0px;
+    padding-bottom: 0px;
+    font-weight: 300;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .5)
+  }
+
+  .top-nav a {
+    padding: 0;
+    margin: 0;
+  }
+
+}
