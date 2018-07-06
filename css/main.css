@@ -281,5 +281,11 @@ footer {
     padding: 0;
     margin: 0;
   }
+  
+   table td {
+    vertical-align: top;
+    margin: 0;
+    width: 100%;
+  }
 
 }
