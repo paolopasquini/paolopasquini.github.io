@@ -12,7 +12,6 @@ description: Profilo professionale del Dottor Paolo Carlo Pasquini, specialista 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://paolopasquini.github.io/" # the base hostname & protocol for your site
 
-
 # Build settings
 markdown: kramdown
 exclude: ["README.md"]
