@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+  <loc>http://drpaolopasquini.it/</loc>
+  <lastmod>2018-07-11T10:25:18+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://drpaolopasquini.it/index.html</loc>
+  <lastmod>2018-07-11T10:25:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://drpaolopasquini.it/urologia.html</loc>
+  <lastmod>2018-07-11T10:25:18+00:00</lastmod>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>http://drpaolopasquini.it/competenze.html</loc>
+  <lastmod>2018-07-11T10:25:18+00:00</lastmod>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>http://drpaolopasquini.it/contatti.html</loc>
+  <lastmod>2018-07-11T10:25:18+00:00</lastmod>
+  <priority>0.50</priority>
+</url>
+</urlset>

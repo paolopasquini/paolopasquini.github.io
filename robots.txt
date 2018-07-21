@@ -1,0 +1,5 @@
+Sitemap: http://drpaolopasquini.it/sitemap.xml
+User-agent:*
+Disallow: /img/
+Disallow: /css/
+Disallow: /js/
