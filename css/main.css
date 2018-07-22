@@ -267,7 +267,7 @@ footer {
   nav ul li {
     list-style: none;
     display: inline-block;
-    margin-bottom: 5px;
+    margin-top: 5px;
     font-size: 18px;
     text-transform: uppercase;
   }
@@ -280,15 +280,31 @@ footer {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, .5)
   }
 
-  .top-nav a {
+  .top-nav a, .top-nav ul {
     padding: 0;
     margin: 0;
   }
-  
+
    table td {
     vertical-align: top;
     margin: 0;
     width: 100%;
+  }
+
+  .page-title {
+    font-size: 35px;
+  }
+
+  .home-banner-group {
+    height: 400px;
+  }
+
+  .banner-group {
+    height: 300px;
+  }
+  
+  h2 {
+    margin: 0;
   }
 
 }
